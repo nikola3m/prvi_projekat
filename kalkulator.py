@@ -1,5 +1,5 @@
 ime="Programer"
-godine = 32
+godine = int(input("Koliko imas godina"))
 dani_u_godini = 365
 
 ukupno_dana= godine * dani_u_godini
