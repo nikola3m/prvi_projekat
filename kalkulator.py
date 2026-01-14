@@ -1,4 +1,4 @@
-ime="Programer"
+ime= str( input("Unesi svoje ime: "))
 godine = int(input("Koliko imas godina"))
 dani_u_godini = 365
 
