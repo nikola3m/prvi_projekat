@@ -9,6 +9,13 @@ for posao in poslovi:
 novi_posao= input("Sta jos treba da uradis? ")
 poslovi.append(novi_posao)
 
-print(f"Sada imas Azuriranu listu zadatka: ")
+print(f"Sada imas {len(poslovi)} zadatka: ")
+#Logika: Ako imas puno dazadata, ispisi upozorenje
+if len(poslovi) > 3:
+	print("Vreme je za pauzu, impas previse posla!")
+else:
+	print("Samo napred, mozes jos nesto dodati!")
+#Konacan ispis koda
+print("Konacna lista obaveza: ")
 for posao in poslovi:
 	print(f"-{posao}")
